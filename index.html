@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bài Tập 2: Viết chương trình nhập vào tháng, năm. Cho biết tháng đó có bao nhiêu ngày. (bao gồm tháng
+        của năm nhuận).</h2>
+    <input  id="month" type="number" placeholder="Nhập tháng">
+    <input id="year" type="number" placeholder="Nhập năm">
+    <button onclick="dayNumber()" >Tính Ngày</button>
+    <div id="soNgay"></div>
+    <br> <hr style="width: 100%;">
+    
+    <h2> Bài Tập 4: Cho biết tên và tọa độ nhà của 3 sinh viên. Cho biết tọa độ của trường đại học. Viết chương
+        trình in tên sinh viên xa trường nhất.</h2>
+    <p>Sinh Viên 1</p>
+    <input id="name1" type="text" placeholder="Nhập tên">
+    <input id="x1" type="number" placeholder="Nhập tọa độ x">
+    <input id="y1" type="number" placeholder="Nhập tọa độ y">
+    <p>Sinh Viên 2</p>
+    <input id="name2" type="text" placeholder="Nhập tên">
+    <input id="x2" type="number" placeholder="Nhập tọa độ x">
+    <input id="y2" type="number" placeholder="Nhập tọa độ y">
+    <p>Sinh Viên 3</p>
+    <input id="name3" type="text" placeholder="Nhập tên">
+    <input id="x3" type="number" placeholder="Nhập tọa độ x">
+    <input id="y3" type="number" placeholder="Nhập tọa độ y">
+    <p>Trường học</p>
+    <input id="x" type="number" placeholder="Nhập tọa độ x">
+    <input id="y" type="number" placeholder="Nhập tọa độ y">
+    <br>
+    <button onclick="furthest()">Tìm</button>
+    <div id="sinhVienXaNhat"></div>
+
+    <br> <hr style="width: 100%;">
+    <h2>Bài Tập 3: Đọc số</h2>
+    <input id="abc" type="number" placeholder="Nhập số 3 chữ số">
+    <button onclick="readNumber()"  >Đọc số</button>
+    <div id="showUp"></div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

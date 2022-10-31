@@ -92,6 +92,14 @@ function furthest(){
 }
 /**
  * Bài Tập 3: 
+ * Input: Số có 3 chữ số
+ * Process: 
+ * 1. khai báo biến hàng trăm, hàng chục, đơn vị, content
+ * 2. Dùng Switch case để chia các trường hợp xử lí cách đọc số
+ * 3. In kết quả hiển thị cách đọc số 
+ * Output: Cách đọc số có 3 chữ số đó
+ * 
+ * 
  * 
  */
 
